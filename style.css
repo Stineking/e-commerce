@@ -130,7 +130,7 @@ nav {
   color: var(--White);
   padding: 5px 10px;
   border-radius: 5px;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 #div-2-a h1 {
   font-size: 2rem;
@@ -170,7 +170,7 @@ button {
 }
 
 button img {
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 @media (min-width: 1024px) {
@@ -180,10 +180,10 @@ button img {
   }
 
   .nav-section-1 .nav-section-2{
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
   }
   #nav {
-    border-bottom: 3px solid var(--Light-grayish-blue);
+    /* border-bottom: 3px solid var(--Light-grayish-blue); */
     margin-top: 10px;
   }
 
@@ -208,10 +208,8 @@ button img {
     max-width: 1400px;
     /* border: 3px solid blue; */
     margin: 0 auto;
-    /* padding:40px 150px; */
     display: flex;
     align-items: center;
-    /* overflow: hidden; */
   }
   .hero-img{
     width: 26rem;
@@ -223,7 +221,6 @@ button img {
     display: flex;
     gap: 25px;
     padding-top: 20px;
-    width: 
     /* border: 3px solid black; */
 
   }
@@ -273,12 +270,13 @@ margin-top: 10px;
 }
 
 button {
-  width: 15rem;
+  width: 16rem;
 }
 
 #thumbnail-wrapper img:hover{
-  color: transparent;
-  border-color: var(--Orange);
+border: 3px solid var(--Orange);
+  transition: filter 0.3s ease;
+  filter: opacity(0.5);
+  transition: 0.3 ease;
 }
-
 }
